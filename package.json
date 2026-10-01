@@ -1,0 +1,8 @@
+{
+  "name": "protection-passport",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

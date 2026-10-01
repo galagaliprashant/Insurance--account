@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Protection Passport",
+    "slug": "protection-passport-mobile",
+    "scheme": "protectionpassport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.protectionpassport.mobile"
+    },
+    "android": {
+      "package": "com.protectionpassport.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#1f6f5c",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router"]
+  }
+}
